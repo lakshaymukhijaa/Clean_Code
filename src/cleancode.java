@@ -41,8 +41,8 @@ public class cleancode {
         int givenarr[] = {1000, 11, 445, 1, 330, 3000};
         int sizeofarr = 6;
         check objofcheck = findLargestorSmallest(givenarr, sizeofarr);
-        System.out.printf("\na is %d", objofcheck.smallerelement);
-        System.out.printf("\nb is %d", objofcheck.largerelement);
+        System.out.printf("\nSmallest Element is %d", objofcheck.smallerelement);
+        System.out.printf("\nLargest Element is %d", objofcheck.largerelement);
     }
 }
 
